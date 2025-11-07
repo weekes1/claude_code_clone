@@ -1,0 +1,69 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+develop-eggs/
+parts/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+
+# --- Virtual Environments ---
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints
+
+# --- PyInstaller ---
+# Usually creates a /dist folder, but just in case:
+*.manifest
+*.spec
+
+# --- Unit Test / Coverage ---
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# --- MyPy / PyRight / Type Checking ---
+.mypy_cache/
+.pytype/
+typings/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs ---
+*.log
+
+# --- Django / Flask etc. ---
+local_settings.py
+instance/
+*.sqlite3
+
+# --- Bytecode cache for other tools ---
+__pycache__/
